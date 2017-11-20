@@ -4,6 +4,10 @@ public class User {
 
     private String username;
     private Integer age;
+    private String nickname;
+
+    public User() {
+    }
 
     public User(String username, Integer age) {
         this.username = username;
@@ -12,6 +16,14 @@ public class User {
 
     public String toString() {
         return this.username + " " + this.age;
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public String getUsername() {
