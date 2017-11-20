@@ -10,6 +10,10 @@ public class User {
         this.age = age;
     }
 
+    public String toString() {
+        return this.username + " " + this.age;
+    }
+
     public String getUsername() {
         return username;
     }

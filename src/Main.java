@@ -7,7 +7,11 @@ public class Main {
 
         User u = new User("Nick", 20);
 
-        System.out.print(u.getAge());
+        System.out.println(u.getAge());
+
+        u.setUsername("nmill");
+
+        System.out.println(u);
 
     }
 }
